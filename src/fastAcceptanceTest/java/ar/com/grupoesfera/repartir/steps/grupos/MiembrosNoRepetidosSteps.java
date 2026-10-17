@@ -26,4 +26,10 @@ public class MiembrosNoRepetidosSteps extends FastCucumberSteps {
 
         assertThat( this.grupo.estaFormado() ).isFalse();
     }
+
+    @Entonces("debería crear el grupo")
+    public void deberiaCrearElGrupo() {
+
+        assertThat( this.grupo.estaFormado() ).isTrue();
+    }
 }
