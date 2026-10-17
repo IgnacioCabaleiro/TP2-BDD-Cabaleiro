@@ -10,7 +10,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.math.BigDecimal;
-import java.util.HashSet;
 import java.util.List;
 
 @Entity
@@ -75,6 +74,6 @@ public class Grupo {
 
     private boolean tieneMiembrosRepetidos() {
 
-        return new HashSet<>(miembros).size() < miembros.size();
+        return miembros.stream().map(String::toLowerCase).distinct().count() < miembros.size();
     }
 }
