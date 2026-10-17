@@ -5,7 +5,7 @@
 * **Grupo** Conjunto de personas que comparte gastos.
 * **Gasto** Desembolso de dinero que hizo una persona dentro de un Grupo.
 * **Repartir** Distribuir los gastos entre todas las personas que forman parte del Grupo.
-* **Miembro** Cada uno de las personas que forman parte de un Grupo. 
+* **Miembro** Cada uno de las personas que forman parte de un Grupo. Se identifica por su nombre, sin distinguir mayúsculas de minúsculas.
 * **Usuario** Persona que utilizan el sistema para crear Grupos, registrar Gastos y repartirlos.
 
 ## Tags
