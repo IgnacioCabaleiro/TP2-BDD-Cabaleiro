@@ -14,7 +14,6 @@ Característica: Crear Grupo para repartir gastos
       Cuando el usuario intenta crear un grupo indicando que sus miembros son 'Ana', 'Juan' y 'Ana'
       Entonces no debería crear el grupo con miembros repetidos
 
-    @pendiente
     Escenario: No puedo crear un grupo con el mismo miembro escrito con distintas mayúsculas
       Cuando el usuario intenta crear un grupo indicando que sus miembros son 'Ana' y 'ana'
       Entonces no debería crear el grupo con miembros repetidos
